@@ -47,6 +47,7 @@ const char* X_GetLastError()
 #endif
 }
 
+//
 void* X_GetFunction(void* lib, const char* ProcName)
 {
 	if (lib == nullptr)
